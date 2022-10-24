@@ -40,7 +40,7 @@
                                             <action selector="textFieldAction:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="U31-bR-Bvf"/>
                                         </connections>
                                     </textField>
-                                    <progressView opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="g33-t5-uet">
+                                    <progressView opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="g33-t5-uet">
                                         <rect key="frame" x="0.0" y="216.33333333333331" width="418" height="2.6666666666666572"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <color key="tintColor" systemColor="systemRedColor"/>
