@@ -46,11 +46,17 @@ class ViewController: UIViewController {
     }
     
     @IBAction func switchAction() {
-        
+        if `switch`.isOn {
+            timeLabel.backgroundColor = .cyan
+        } else {
+            timeLabel.backgroundColor = .clear
+        }
     }
     
     @IBAction func clearButtonAction() {
-        
+        timeLabel.text = ""
+        `switch`.setOn(false, animated: true)
+        timeLabel.backgroundColor = .clear
     }
     
 
