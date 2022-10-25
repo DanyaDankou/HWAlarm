@@ -34,14 +34,13 @@
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.0" textAlignment="center" minimumFontSize="2" translatesAutoresizingMaskIntoConstraints="NO" id="zqi-iw-Otr">
                                         <rect key="frame" x="0.0" y="142.33333333333334" width="418" height="34"/>
-                                        <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
                                             <action selector="textFieldAction:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="U31-bR-Bvf"/>
                                         </connections>
                                     </textField>
-                                    <progressView opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="g33-t5-uet">
+                                    <progressView opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="g33-t5-uet">
                                         <rect key="frame" x="0.0" y="216.33333333333331" width="418" height="2.6666666666666572"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <color key="tintColor" systemColor="systemRedColor"/>
@@ -73,7 +72,7 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:11" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4d-jN-aO1">
                                                 <rect key="frame" x="0.0" y="0.0" width="88.333333333333329" height="38"/>
-                                                <color key="backgroundColor" red="0.44304659962654114" green="0.90382087230682373" blue="0.87295323610305786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.44304659959999998" green="0.90382081270000003" blue="0.87295323609999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                                 <color key="textColor" red="0.44304659962654114" green="0.90382087230682373" blue="0.87295323610305786" alpha="0.81502851269999999" colorSpace="custom" customColorSpace="sRGB"/>
@@ -86,9 +85,8 @@
                                                     <action selector="switchAction" destination="BYZ-38-t0r" eventType="valueChanged" id="Wyl-ia-gp2"/>
                                                 </connections>
                                             </switch>
-                                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzL-f5-TqE">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzL-f5-TqE">
                                                 <rect key="frame" x="237.33333333333337" y="0.0" width="180.66666666666663" height="38"/>
-                                                <color key="tintColor" systemColor="systemRedColor"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Clear">
                                                     <fontDescription key="titleFontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="20"/>
                                                 </buttonConfiguration>
